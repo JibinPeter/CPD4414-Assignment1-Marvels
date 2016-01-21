@@ -29,9 +29,9 @@ public class CPD4414Assignment1Marvels {
         else if(num == 1) {
             res = str;
         }
-        /*else if(num == 2) {
+        else if(num == 2) {
             res = str+""+str;
-        }*/
+        }
         return res;
     }
     
