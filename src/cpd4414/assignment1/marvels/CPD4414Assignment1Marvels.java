@@ -19,7 +19,11 @@ public class CPD4414Assignment1Marvels {
     }
     
     public static String stringPower(String str, int num) {
-        return null;
+        String res = null;
+        if(str == ""){
+            res = ""; 
+        }
+        return res;
     }
     
 }
