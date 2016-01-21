@@ -19,19 +19,18 @@ public class CPD4414Assignment1Marvels {
     }
     
     public static String stringPower(String str, int num) {
-        String res = null;
+        String res = "";
         if(str == ""){
             res = ""; 
         }
         else if(num < 1) {
             res = null;
         }
-        else if(num == 1) {
-            res = str;
+        else {
+            for(int i=0; i<num; i++) 
+                res += str;
         }
-        else if(num == 2) {
-            res = str+""+str;
-        }
+        
         return res;
     }
     
