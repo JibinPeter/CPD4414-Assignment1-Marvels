@@ -89,5 +89,13 @@ public class CPD4414Assignment1MarvelsTest {
         String result = CPD4414Assignment1Marvels.stringPower(str, num);
         assertEquals(expResult, result);
     }
+    @Test 
+    public void testStringAndTwoShouldReturnStringDoubled(){
+        String str = "Sample";
+        int num = 2;
+        String expResult = "SampleSample";
+        String result = CPD4414Assignment1Marvels.stringPower(str, num);
+        assertEquals(expResult, result);
+    }
     
 }
