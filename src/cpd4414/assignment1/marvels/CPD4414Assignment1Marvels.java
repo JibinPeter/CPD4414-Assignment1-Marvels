@@ -23,7 +23,7 @@ public class CPD4414Assignment1Marvels {
         if(str == ""){
             res = ""; 
         }
-        else if(num < 1) {
+        /*else if(num < 1) {
             res = null;
         }
         else if(num == 1) {
@@ -31,7 +31,7 @@ public class CPD4414Assignment1Marvels {
         }
         else if(num == 2) {
             res = str+""+str;
-        }
+        }*/
         return res;
     }
     
