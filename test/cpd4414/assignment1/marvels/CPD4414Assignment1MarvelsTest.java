@@ -72,4 +72,22 @@ public class CPD4414Assignment1MarvelsTest {
         assertEquals(expResult, result);
     }
     
+    @Test
+    public void testLessThanOneShouldReturnNull() {
+        String str = null;
+        int num = 0;
+        String expResult = null;
+        String result = CPD4414Assignment1Marvels.stringPower(str, num);
+        assertEquals(expResult, result);
+    }
+    
+    @Test
+    public void testStringAndOneShouldReturnString() {
+        String str = "Sample";
+        int num = 1;
+        String expResult = "Sample";
+        String result = CPD4414Assignment1Marvels.stringPower(str, num);
+        assertEquals(expResult, result);
+    }
+    
 }
